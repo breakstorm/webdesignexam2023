@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>World Festival</title>
+  <link rel="stylesheet" href="css/prac1.css">
+  <script src="javascript/jquery-1.12.3.js"></script>
+  <script src="javascript/prac1.js" defer></script>
+</head>
+<body>
+  <!-- 왼쪽 네비게이션 -->
+  <nav>
+    <div class="logo">
+      <a href="#"><img src="images/logo_modify.png" alt="logo image"></a>
+    </div>
+    <ul class="navi">
+      <li>
+        <a href="#">축제소개</a>
+        <ul class="submenu">
+          <li><a href="#">Festival소개</a></li>
+          <li><a href="#">행사장 안내</a></li>
+          <li><a href="#">조직위원회</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">예약안내</a>
+        <ul class="submenu">
+          <li><a href="#">예약하기</a></li>
+          <li><a href="#">예약확인/취소</a></li>
+          <li><a href="#">단체예약문의</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">아티스트</a>
+        <ul class="submenu">
+          <li><a href="#">두유노킹콩</a></li>
+          <li><a href="#">우기욱이</a></li>
+          <li><a href="#">예공주</a></li>
+          <li><a href="#">우빈밴드</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">커뮤니티</a>
+        <ul class="submenu">
+          <li><a href="#">공지사항</a></li>
+          <li><a href="#">사진갤러리</a></li>
+          <li><a href="#">영상갤러리</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- 오른쪽 본문 -->
+  <div class="wrapper">
+    <!-- 슬라이드 부분 -->
+    <div class="slide">
+      <div><img src="images/img1.jpg" alt="slide image1"><span>World Festival 1</span></div>
+      <div><img src="images/img2.jpg" alt="slide image2"><span>World Festival 2</span></div>
+      <div><img src="images/img3.jpg" alt="slide image3"><span>World Festival 3</span></div>
+    </div>
+
+
+    <!-- 게시판 부분 -->
+    <div class="content">
+      <div class="notice">
+        <div class="title"><h4>공지사항</h4></div>
+        <ul>
+          <li><a href="#" class="notice__title">Vallery Festival 1<span class="notice__date">2023.03.01</span></a></li>
+          <li><a href="#" class="notice__title">Vallery Festival 2<span class="notice__date">2023.03.02</span></a></li>
+          <li><a href="#" class="notice__title">Vallery Festival 3<span class="notice__date">2023.03.03</span></a></li>
+          <li><a href="#" class="notice__title">Vallery Festival 4<span class="notice__date">2023.03.04</span></a></li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <div class="title"><h4>갤러리</h4></div>
+        <ul>
+          <li><img src="images/gallery1.jpg" alt="gallery image1"></li>
+          <li><img src="images/gallery2.jpg" alt="gallery image2"></li>
+          <li><img src="images/gallery3.jpg" alt="gallery image3"></li>
+        </ul>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="images/shortcut.jpg" alt="shortcut image"><span>바로가기</span></div>
+      </div>
+    </div>
+    
+    
+    <!-- 푸터부분 -->
+    <footer>
+      <div class="logo_bottom">
+        <img src="images/logo_bottom.png" alt="bottom logo">
+      </div>
+      <div class="copy">
+        COPYRIGHT © by WEBDESIGN ALL RIGHTS RESERVED
+      </div>
+      <div class="familysite">
+        <select name="familysite">
+          <option value="#">패밀리사이트1</option>
+          <option value="#">패밀리사이트2</option>
+          <option value="#">패밀리사이트3</option>
+          <option value="#">패밀리사이트4</option>
+          <option value="#">패밀리사이트5</option>
+        </select>
+      </div>
+    </footer>
+  </div>
+
+  <div id="modal">
+    <div class="modal-content">
+      <div class="modal__header">Lorem</div>
+      <div class="modal__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas.</div>
+      <div class="modal__bottom">
+        <button>닫기</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
